@@ -1,0 +1,121 @@
+body {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.loginForm {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0 15px 18px 0 rgb(0 0 0 / 41%), 0 35px 60px 0 rgb(0 0 0 / 28%);
+}
+
+.loginForm h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.nameForm {
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.name {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #636e72;
+  font-size: 16px;
+  height: 25px;
+  background: none;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width: 80%;
+  height: 40px;
+  background: linear-gradient(125deg, #81ecec, #6c5ce7, #81ecec);
+  background-position: left;
+  background-size: 200%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.clock {
+  font-size: 100px;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.todo {
+  padding: 16px 16px 16px 60px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgb(0 0 0 / 3%);
+  position: relative;
+  margin: 0;
+  width: 100%;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  color: inherit;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todoForm {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 15px 18px 0 rgb(0 0 0 / 41%), 0 35px 60px 0 rgb(0 0 0 / 28%);
+}
+
+.margin10 {
+  margin: 10px 0 10px 0;
+}
+
+.boxShadow {
+  position: relative;
+  box-shadow: 0 15px 18px 0 rgb(0 0 0 / 41%), 0 35px 60px 0 rgb(0 0 0 / 28%);
+}
