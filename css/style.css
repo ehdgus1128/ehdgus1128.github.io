@@ -137,7 +137,6 @@ body {
 }
 
 .quote {
-  width: 70vh;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
